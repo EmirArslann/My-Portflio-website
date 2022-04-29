@@ -14,7 +14,7 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-    height: 50px;
+    height: 80px;
     z-index: 1;
 }
 
@@ -27,7 +27,7 @@ body{
 .initials{ 
     padding-left: 15px;
     color: #b4a5a5;
-    font-size: 30px;
+    font-size: 40px;
 
 }
 
@@ -55,7 +55,7 @@ body{
 
 .fa-solid{
     color: #b4a5a5;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .fa-solid:hover{
@@ -70,7 +70,7 @@ body{
 main{
     margin: 0;
     width: 99.82%;
-    height: 500px;
+    height: 730px;
 
 }
 
@@ -84,8 +84,8 @@ main{
 }
 
 .my-img{
-    height: 300px;
-    width: 300px;
+    height: 450px;
+    width: 450px;
     border-radius: 48%;
     border: 3px solid  #748B9C;
 }
@@ -126,12 +126,12 @@ video {
   }
 
   .main-text h2{
-      font-size: 55px;
+      font-size: 75px;
       color: #3C415C;
   }
 
   .main-text p {
-      font-size: 20px;
+      font-size: 30px;
       color: white;
   }
 
@@ -150,9 +150,8 @@ video {
   }
 
   .fa-brands{
-      font-size: 35px;
+      font-size: 45px;
       width: 35px;
-      /* background-color: #3C415C; */
       border-radius: 50px;
       color: white;
       margin-right: 15px;
@@ -170,10 +169,11 @@ video {
     flex-direction: column;
     background-color: #748B9C;
     gap: 25px;
+    height: 250px;
 }
 
 .about-me-header{
-    font-size: 55px;
+    font-size: 75px;
     color: #3C415C;
     margin-top: 15px;
     align-self: center;
@@ -193,7 +193,7 @@ video {
 .about-me p{
     color: white;
     font-size: 20px;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     
 
 
@@ -207,7 +207,7 @@ video {
     display: flex;
     flex-direction: column;
     width: 98.82%;
-    height: 350px;
+    height: 500px;
     margin: 0;
 }
 
@@ -237,7 +237,7 @@ video {
 
 .skills-header h2{
     color: rgb(1, 78, 87);
-    font-size: 75px;
+    font-size: 95px;
     font-style: italic;
     font-weight: bold;
     letter-spacing: 2px;
@@ -251,7 +251,7 @@ video {
     top: 30px;
     background-color: rgb(1, 78, 87, 0.5);
     align-self: center;
-    width: 25%;
+    width: 19%;
 }
 
 .skills-icons-list {
@@ -274,7 +274,7 @@ video {
 
 .projects-header {
     color: #3C415C;
-    font-size: 55px;
+    font-size: 75px;
     margin-top: 30px;
     margin-bottom: 60px;
     align-self: center;
@@ -300,23 +300,76 @@ video {
 .projects-content-info h2{
     color: #3C415C;
     align-self: center;
-    font-size: 25px;
+    font-size: 45px;
+    margin-top: 12px;
 }
 
 .projects-content-info p {
     color: white;
-    letter-spacing: 1px;
-    padding-left: 10px;
+    letter-spacing: 2px;
+    padding-left: 15px;
     width: 90%;
+    font-size: 25px;
+    
 }
 
 .project-img {
     width: 48%;
-    height: 300px;
+    height: 450px;
     border: 2px solid black;
     border-radius: 10px;
     margin-left: 5px;
     margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.github-link {
+    display: flex;
+    width: 49px;
+
+}
+
+.github-btn {
+    background-color: #3C415C;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    align-items: center;
+    width: 49px;
+    margin-left: 30px;
+}
+
+.projects-content-info-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 50px;
+    border-right: 3px solid white;
+}
+
+.projects-content-info-left h2{
+    color: #3C415C;
+    align-self: center;
+    font-size: 45px;
+    margin-top: 12px;
+}
+
+.projects-content-info-left p {
+    color: white;
+    letter-spacing: 2px;
+    padding-left: 15px;
+    width: 90%;
+    font-size: 25px;
+}
+
+.project-img-left {
+    width: 47.7%;
+    height: 450px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-right: 10px;
 }
 
 /* Projects */
