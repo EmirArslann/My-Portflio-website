@@ -239,6 +239,8 @@ video {
     color: rgb(1, 78, 87);
     font-size: 75px;
     font-style: italic;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .skills-icons {
@@ -260,8 +262,61 @@ video {
 
 }
 
-
-
-
-
 /* Skiils */
+
+/* Projects */
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    background-color: #748B9C;
+}
+
+.projects-header {
+    color: #3C415C;
+    font-size: 55px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    align-self: center;
+}
+
+.projects-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border-bottom: 3px solid white;
+}
+
+.projects-content-info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 50px;
+    border-left: 3px solid white;
+
+
+}
+
+.projects-content-info h2{
+    color: #3C415C;
+    align-self: center;
+    font-size: 25px;
+}
+
+.projects-content-info p {
+    color: white;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    width: 90%;
+}
+
+.project-img {
+    width: 48%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+/* Projects */
