@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    background-color: #000000;
+    font-family: "Kanit", "sans-serif";
+    
+
+} 
+
+/* Header */
+.header{
+    display: flex;
+    background-color: #748B9C;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+}
+
+.initial{
+    display: flex;
+    align-items: center;
+
+}
+
+.initials{ 
+    padding-left: 15px;
+    color: #b4a5a5;
+    font-size: 30px;
+
+}
+
+.initials:hover{
+    cursor: pointer;
+    color: #3C415C;
+    transition-duration: 0.2s;
+}
+
+.header-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.header-icons-list{
+    display: inline-block;
+    list-style: none;
+    color: #b4a5a5;
+    align-self: center;
+    padding-right: 27px;
+
+}
+
+.fa-solid{
+    color: #b4a5a5;
+    font-size: 25px;
+}
+
+.fa-solid:hover{
+    color: #3C415C;
+    transition-duration: 0.2s;
+}
+
+/* Header */
+
+/* Main */
+
+main{
+    margin: 0;
+    width: 99.82%;
+    height: 500px;
+
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+
+
+}
+
+.my-img{
+    height: 300px;
+    width: 300px;
+    border-radius: 48%;
+    border: 3px solid  #748B9C;
+}
+
+video {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .video-wrapper {
+    margin-top: 0;
+    border: 1px solid #000;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-header{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 30px;
+  }
+
+  .main-text{
+      display: flex;
+      flex-direction: column;
+      width: 39%;
+      gap: 40px;
+  }
+
+  .main-text h2{
+      font-size: 55px;
+      color: #3C415C;
+  }
+
+  .main-text p {
+      font-size: 20px;
+      color: white;
+  }
+
+  .main-icons{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+
+  }
+
+  .main-icons-list{
+      list-style: none;
+      display: inline-block;
+      
+  }
+
+  .fa-brands{
+      font-size: 35px;
+      width: 35px;
+      /* background-color: #3C415C; */
+      border-radius: 50px;
+      color: white;
+      margin-right: 15px;
+      cursor: pointer;
+  }
+
+
+/* Main */
+
+/* About Me */
+
+.about{
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #748B9C;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.about-me-header{
+    font-size: 35px;
+    color: #3E065F;
+}
+
+.about-me p{
+    color: white;
+
+
+}
