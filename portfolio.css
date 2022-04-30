@@ -207,7 +207,7 @@ video {
     display: flex;
     flex-direction: column;
     width: 98.82%;
-    height: 600px;
+    height: 570px;
     margin: 0;
 }
 
@@ -380,13 +380,63 @@ video {
     display: flex;
     flex-direction: column;
     background-color: #748B9C;
-    height: 250px;
+    height: 450px;
     align-items: center;
 }
  
 .contact h2{
     font-size: 65px;
-    color: #3C415C;
+    font-style: italic;
+    color: rgb(1, 78, 87);
     margin-top: 15px;
 }
+
+.contact-me {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    top: 30px;
+    background-color: rgb(1, 78, 87, 0.5);
+    align-self: center;
+    width: 19%;
+}
+
+.contact-me h3 {
+    margin: 10px 0;
+    align-self: center;
+    font-size: 45px;
+    color: white;
+    font-weight: lighter;
+}
+
+.contact-me a {
+    font-size: 15px;
+    align-self: center;
+    margin: 10px 0;
+    text-decoration: none;
+    color: white
+}
+
+.contact-me-list{
+    display: flex;
+    border: 1px solid white;
+    margin: 10px 10px;
+}
+
+
+.contact-me-icons {
+    display: inline-block;
+    color: white;
+    align-self: center;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.contact-icon:hover {
+    color: #748B9C;
+    
+}
+
 /* Contact  */
