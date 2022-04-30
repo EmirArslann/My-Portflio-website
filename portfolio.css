@@ -207,7 +207,7 @@ video {
     display: flex;
     flex-direction: column;
     width: 98.82%;
-    height: 500px;
+    height: 600px;
     margin: 0;
 }
 
@@ -373,3 +373,20 @@ video {
 }
 
 /* Projects */
+
+/* Contact */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    background-color: #748B9C;
+    height: 250px;
+    align-items: center;
+}
+ 
+.contact h2{
+    font-size: 65px;
+    color: #3C415C;
+    margin-top: 15px;
+}
+/* Contact  */
